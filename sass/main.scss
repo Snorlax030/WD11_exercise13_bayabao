@@ -1,0 +1,14 @@
+$primary: black;
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$myColor-theme-colors: (
+    "color1": green
+);
+    
+
+
+
+$theme-colors: map-merge($myColor-theme-colors ,$theme-colors );
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
